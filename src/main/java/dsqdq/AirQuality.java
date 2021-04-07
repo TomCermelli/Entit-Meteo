@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="air_quality")
 public class AirQuality extends Response{
-	
+	 
 	@Column(name="value")
 	private String value;
 	

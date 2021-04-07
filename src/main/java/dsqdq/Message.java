@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="message")
 public class Message {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)

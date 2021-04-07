@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 
 @Entity
 public class Heading {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)

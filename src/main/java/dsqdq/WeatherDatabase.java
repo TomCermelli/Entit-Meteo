@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="weather_database")
 public class WeatherDatabase extends Response{
-	
+	 
 	@Column(name="value")
 	private String value;
 	

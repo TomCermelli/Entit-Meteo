@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 
 
 public abstract class Response {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)

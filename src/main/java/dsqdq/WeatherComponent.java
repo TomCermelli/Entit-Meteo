@@ -18,7 +18,7 @@ public class WeatherComponent extends Response {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)
 	private long id;
-	
+	 
 	@Column(name = "entitled")
 	private String entitled;
 	

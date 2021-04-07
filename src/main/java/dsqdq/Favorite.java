@@ -18,7 +18,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="favorite")
 public class Favorite {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)
